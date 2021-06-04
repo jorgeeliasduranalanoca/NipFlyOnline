@@ -5,13 +5,12 @@ import React from "react"
 
 export default function NavBar()
 {return(
-    <NavBar bg="light">
-            <NavBar href="#home">NipFly</NavBar>
-            <NavBar href="#about">About</NavBar>
-            <NavBar href="#contactos">Contactoas</NavBar>
-
-
-    </NavBar>
+    <div>
+        <a href="#home">Nip Fly</a>
+        <a href="#about">About</a>
+        <a href="#contactos">contactos</a>
+        
+    </div>
 )
 
 
