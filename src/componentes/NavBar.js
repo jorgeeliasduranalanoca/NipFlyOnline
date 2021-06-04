@@ -6,9 +6,9 @@ import React from "react"
 export default function NavBar()
 {return(
     <NavBar bg="light">
-            <NavBar.Brand href="#home">NipFly</NavBar.Brand>
-            <NavBar.Brand href="#about">About</NavBar.Brand>
-            <NavBar.Brand href="#contactos">Contactoas</NavBar.Brand>
+            <NavBar href="#home">NipFly</NavBar>
+            <NavBar href="#about">About</NavBar>
+            <NavBar href="#contactos">Contactoas</NavBar>
 
 
     </NavBar>
