@@ -1,17 +1,17 @@
-import React from "react"
+import React, { Component } from "react";
+import '../stles/NavBar.css'; 
 
-
-
-
-export default function NavBar()
-{return(
-    <div>
-        <a href="#home">Nip Fly</a>
+class NavBar extends Component {
+  render() {
+    return (
+      <nav className="topnav">
+        <a className="active" href="#home">PetShop</a>
+        <a href="#news">Productos</a>
+        <a href="#contact">Promociones</a>
         <a href="#about">About</a>
-        <a href="#contactos">contactos</a>
-        
-    </div>
-)
-
-
+    </nav>
+    );
+  }
 }
+
+export default NavBar;
