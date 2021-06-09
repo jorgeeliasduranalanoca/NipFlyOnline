@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import '../stles/NavBar.css'; 
-
+import CardWidget from '../componentes/CardWidget.js'
 class NavBar extends Component {
   render() {
     return (
@@ -9,6 +9,7 @@ class NavBar extends Component {
         <a href="#news">Vuelos</a>
         <a href="#contact">Promociones</a>
         <a href="#about">hoteles</a>
+        <CardWidget/>
     </nav>
     );
   }
